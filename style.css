@@ -1,0 +1,46 @@
+header {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+}
+ul {
+    list-style: none;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    gap: 20px;
+}
+.header__div {
+    display:flex;
+    align-items:center;
+    gap: 20px;
+    width: 100%;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+}
+.main__div{
+background-color:red;       
+}
+article{
+    display:flex;
+    justify-content: center;
+    background-color: red;
+}
+.main__div__img{
+    position: relative;
+}
+img{
+    opacity: 0.8;
+}
+.img__titulo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color:white;
+    font-size: 50px;
+}
